@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AspireTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CreateManufacturingOrder(failed)">
+    <classes>
+      <class name="testcases.CreateManufacturingOrder">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="CreateManufacturingOrder"/>
+        </methods>
+      </class> <!-- testcases.CreateManufacturingOrder -->
+    </classes>
+  </test> <!-- CreateManufacturingOrder(failed) -->
+</suite> <!-- Failed suite [AspireTest] -->

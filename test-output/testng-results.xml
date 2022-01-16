@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-16T18:43:11 IST" name="AspireTest" finished-at="2022-01-16T18:43:40 IST" duration-ms="28935">
+    <groups>
+    </groups>
+    <test started-at="2022-01-16T18:43:11 IST" name="LoginTest" finished-at="2022-01-16T18:43:16 IST" duration-ms="5041">
+      <class name="testcases.LoginTest">
+        <test-method signature="Login()[pri:0, instance:testcases.LoginTest@5e82df6a]" started-at="2022-01-16T18:43:11 IST" name="Login" finished-at="2022-01-16T18:43:16 IST" duration-ms="4982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2022-01-16T18:43:16 IST" name="CreateProduct" finished-at="2022-01-16T18:43:28 IST" duration-ms="12226">
+      <class name="testcases.CreateProduct">
+        <test-method signature="InventoryCreateProduct()[pri:0, instance:testcases.CreateProduct@40ef3420]" started-at="2022-01-16T18:43:16 IST" name="InventoryCreateProduct" finished-at="2022-01-16T18:43:28 IST" duration-ms="12222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InventoryCreateProduct -->
+      </class> <!-- testcases.CreateProduct -->
+    </test> <!-- CreateProduct -->
+    <test started-at="2022-01-16T18:43:28 IST" name="CreateManufacturingOrder" finished-at="2022-01-16T18:43:40 IST" duration-ms="11569">
+      <class name="testcases.CreateManufacturingOrder">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.CreateManufacturingOrder@123ef382]" started-at="2022-01-16T18:43:06 IST" name="setUp" finished-at="2022-01-16T18:43:11 IST" duration-ms="5149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CreateManufacturingOrder()[pri:0, instance:testcases.CreateManufacturingOrder@123ef382]" started-at="2022-01-16T18:43:28 IST" name="CreateManufacturingOrder" finished-at="2022-01-16T18:43:40 IST" duration-ms="11563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateManufacturingOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.CreateManufacturingOrder@123ef382]" started-at="2022-01-16T18:43:40 IST" name="tearDown" finished-at="2022-01-16T18:43:40 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.CreateManufacturingOrder -->
+    </test> <!-- CreateManufacturingOrder -->
+  </suite> <!-- AspireTest -->
+</testng-results>
